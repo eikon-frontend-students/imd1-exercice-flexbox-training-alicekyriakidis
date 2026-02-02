@@ -2,3 +2,16 @@
 /* Il n'y pas de solution unique, utilisez les propriétés Flexbox que vous jugez appropriées. */
 /* N'oubliez pas de tester le rendu en responsive ! */
 /* Aucun changement n'est à faire dans le HTML. */
+.arena {ß
+  display: flex;
+  gap: 10px;
+  /* 🦊 Active flexbox sur l'arena. */
+  /* Ajoute un espace régulier entre les items. */
+}
+.item--large {
+  flex-basis: 200px;
+  /* 🦊 Donne une taille de base plus grande à cet item. */
+}
+/* 🟢 Auto-évaluation *
+
+/
